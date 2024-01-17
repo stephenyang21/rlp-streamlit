@@ -4,8 +4,8 @@ from web3 import Web3
 from web3.auto import w3
 from Transaction import Transaction
 from DecodedTx import DecodedTx
-import rlp
 
+import rlp
 
 def hex_to_bytes(data: str) -> bytes:
     return to_bytes(hexstr=HexStr(data))

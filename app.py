@@ -6,7 +6,7 @@ import streamlit as st
 
 st.title("RLP Decoder")
 
-message = st.text_input("Enter the message to decrypt:")
+message = st.text_input("Enter the message to decode:")
 
 okButtom = st.button("OK")
 

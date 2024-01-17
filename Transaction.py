@@ -1,4 +1,5 @@
 
+import rlp
 from rlp.sedes import Binary, big_endian_int,binary
 
 class Transaction(rlp.Serializable):

@@ -14,4 +14,5 @@ if okButtom:
     res = decode_raw_tx(message)
     message_decode = asdict(res)  
     st.subheader("JSON Message:")
-    st.json(hex_deserialize(message_decode))
+
+    st.json((message_decode))
